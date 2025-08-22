@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Estilos personalizados para completos */
+.completo-gradient {
+  background: linear-gradient(135deg, #4ADE80 0%, #EAB308 25%, #EF4444  50%, #FFFFFF 75%);
+}
+
+.hero-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+}
