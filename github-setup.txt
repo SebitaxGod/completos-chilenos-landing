@@ -1,0 +1,15 @@
+# Comandos para conectar con GitHub
+
+# Después de crear el repositorio en GitHub, ejecuta estos comandos:
+# (Reemplaza TU_USUARIO con tu username de GitHub)
+
+# 1. Agregar el repositorio remoto
+git remote add origin https://github.com/TU_USUARIO/completos-chilenos-landing.git
+
+# 2. Hacer push del código
+git push -u origin main
+
+# Ejemplo de los comandos completos:
+# cd "c:\Users\sebig\Documents\landing page"
+# git remote add origin https://github.com/TU_USUARIO/completos-chilenos-landing.git
+# git push -u origin main

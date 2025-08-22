@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import ImageCarousel from '../components/ImageCarousel';
 import Menu from '../components/Menu';
 import About from '../components/About';
 import Contact from '../components/Contact';
@@ -47,6 +48,7 @@ const Home: NextPage = () => {
       <main className="min-h-screen">
         <Navbar />
         <Hero />
+        <ImageCarousel />
         <Menu />
         <About />
         <Contact />
